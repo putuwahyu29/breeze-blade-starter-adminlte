@@ -16,7 +16,11 @@ The above requirements follow the time of establishment of this project
 
 1. Clone this repository or Use this repository as a template
 2. Run `composer install`
-3. Run `npm install && npm run dev`
+3. Run `cp .env.example .env`
+4. Run `php artisan key:generate`
+5. Configure .env file (Database and Email)
+6. Run `php artisan migrate`
+7. Last, run `php artisan serve`
 
 ### Existing Project
 
